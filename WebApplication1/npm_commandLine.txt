@@ -1,0 +1,860 @@
+
+C:\Users\Dev\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\scripts\React>npm
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, bin, bugs, c, cache, completion, config,
+    ddp, dedupe, deprecate, dist-tag, docs, edit, explore, get,
+    help, help-search, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, tag, team, test, tst, un, uninstall,
+    unpublish, unstar, up, update, v, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Dev\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@3.10.10 C:\Program Files\nodejs\node_modules\npm
+
+C:\Users\Dev\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\scripts\React>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (React)
+Sorry, name can no longer contain capital letters.
+name: (React) test
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\Dev\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\scripts\React\package.json:
+
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes)
+
+C:\Users\Dev\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\scripts\React>npm install
+serviceapp@1.0.0 C:\Users\Dev\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\scripts\React
++-- babel-core@6.23.1
+| +-- babel-code-frame@6.22.0
+| | +-- chalk@1.1.3
+| | | +-- ansi-styles@2.2.1
+| | | +-- escape-string-regexp@1.0.5
+| | | +-- has-ansi@2.0.0
+| | | | `-- ansi-regex@2.1.1
+| | | +-- strip-ansi@3.0.1
+| | | `-- supports-color@2.0.0
+| | +-- esutils@2.0.2
+| | `-- js-tokens@3.0.1
+| +-- babel-generator@6.23.0
+| | +-- detect-indent@4.0.0
+| | | `-- repeating@2.0.1
+| | |   `-- is-finite@1.0.2
+| | |     `-- number-is-nan@1.0.1
+| | +-- jsesc@1.3.0
+| | `-- trim-right@1.0.1
+| +-- babel-helpers@6.23.0
+| +-- babel-messages@6.23.0
+| +-- babel-register@6.23.0
+| | +-- core-js@2.4.1
+| | +-- home-or-tmp@2.0.0
+| | | +-- os-homedir@1.0.2
+| | | `-- os-tmpdir@1.0.2
+| | `-- source-map-support@0.4.11
+| +-- babel-runtime@6.23.0
+| | +-- core-js@2.4.1
+| | `-- regenerator-runtime@0.10.3
+| +-- babel-template@6.23.0
+| +-- babel-traverse@6.23.1
+| | `-- globals@9.16.0
+| +-- babel-types@6.23.0
+| | `-- to-fast-properties@1.0.2
+| +-- babylon@6.16.1
+| +-- convert-source-map@1.4.0
+| +-- debug@2.6.1
+| | `-- ms@0.7.2
+| +-- json5@0.5.1
+| +-- lodash@4.17.4
+| +-- minimatch@3.0.3
+| | `-- brace-expansion@1.1.6
+| |   +-- balanced-match@0.4.2
+| |   `-- concat-map@0.0.1
+| +-- path-is-absolute@1.0.1
+| +-- private@0.1.7
+| +-- slash@1.0.0
+| `-- source-map@0.5.6
++-- babel-loader@6.3.2
+| +-- find-cache-dir@0.1.1
+| | `-- pkg-dir@1.0.0
+| |   `-- find-up@1.1.2
+| |     +-- path-exists@2.1.0
+| |     `-- pinkie-promise@2.0.1
+| |       `-- pinkie@2.0.4
+| `-- loader-utils@0.2.17
+|   `-- big.js@3.1.3
++-- babel-preset-es2015@6.22.0
+| +-- babel-plugin-transform-es2015-classes@6.23.0
+| | +-- babel-helper-define-map@6.23.0
+| | +-- babel-helper-function-name@6.23.0
+| | +-- babel-helper-optimise-call-expression@6.23.0
+| | `-- babel-helper-replace-supers@6.23.0
+| +-- babel-plugin-transform-es2015-modules-commonjs@6.23.0
+| | `-- babel-plugin-transform-strict-mode@6.22.0
+| +-- babel-plugin-transform-es2015-modules-systemjs@6.23.0
+| | `-- babel-helper-hoist-variables@6.22.0
+| +-- babel-plugin-transform-es2015-parameters@6.23.0
+| | +-- babel-helper-call-delegate@6.22.0
+| | `-- babel-helper-get-function-arity@6.22.0
+| +-- babel-plugin-transform-es2015-sticky-regex@6.22.0
+| | `-- babel-helper-regex@6.22.0
+| `-- babel-plugin-transform-es2015-unicode-regex@6.22.0
+|   `-- regexpu-core@2.0.0
+|     +-- regenerate@1.3.2
+|     +-- regjsgen@0.2.0
+|     `-- regjsparser@0.1.5
+|       `-- jsesc@0.5.0
++-- babel-preset-react@6.23.0
+| +-- babel-plugin-transform-react-jsx@6.23.0
+| | `-- babel-helper-builder-react-jsx@6.23.0
+| `-- babel-preset-flow@6.23.0
+|   `-- babel-plugin-transform-flow-strip-types@6.22.0
+|     `-- babel-plugin-syntax-flow@6.18.0
++-- chunk-manifest-webpack-plugin@0.1.0
+| `-- webpack-core@0.4.8
+|   `-- source-map@0.1.43
+|     `-- amdefine@1.0.1
++-- css-loader@0.26.2
+| +-- css-selector-tokenizer@0.7.0
+| | +-- cssesc@0.1.0
+| | +-- fastparse@1.1.1
+| | `-- regexpu-core@1.0.0
+| +-- cssnano@3.10.0
+| | +-- autoprefixer@6.7.6
+| | | +-- browserslist@1.7.6
+| | | | `-- electron-to-chromium@1.2.5
+| | | +-- caniuse-db@1.0.30000632
+| | | +-- normalize-range@0.1.2
+| | | +-- num2fraction@1.2.2
+| | | `-- postcss@5.2.15
+| | |   `-- supports-color@3.2.3
+| | +-- decamelize@1.2.0
+| | +-- defined@1.0.0
+| | +-- has@1.0.1
+| | | `-- function-bind@1.1.0
+| | +-- postcss-calc@5.3.1
+| | | +-- postcss-message-helpers@2.0.0
+| | | `-- reduce-css-calc@1.3.0
+| | |   +-- math-expression-evaluator@1.2.16
+| | |   `-- reduce-function-call@1.0.2
+| | +-- postcss-colormin@2.2.2
+| | | `-- colormin@1.1.2
+| | |   +-- color@0.11.4
+| | |   | +-- color-convert@1.9.0
+| | |   | | `-- color-name@1.1.1
+| | |   | `-- color-string@0.3.0
+| | |   `-- css-color-names@0.0.4
+| | +-- postcss-convert-values@2.6.1
+| | +-- postcss-discard-comments@2.0.4
+| | +-- postcss-discard-duplicates@2.1.0
+| | +-- postcss-discard-empty@2.1.0
+| | +-- postcss-discard-overridden@0.1.1
+| | +-- postcss-discard-unused@2.2.3
+| | | `-- uniqs@2.0.0
+| | +-- postcss-filter-plugins@2.0.2
+| | | `-- uniqid@4.1.1
+| | |   `-- macaddress@0.2.8
+| | +-- postcss-merge-idents@2.1.7
+| | +-- postcss-merge-longhand@2.0.2
+| | +-- postcss-merge-rules@2.1.2
+| | | +-- caniuse-api@1.5.3
+| | | | +-- lodash.memoize@4.1.2
+| | | | `-- lodash.uniq@4.5.0
+| | | +-- postcss-selector-parser@2.2.3
+| | | | +-- flatten@1.0.2
+| | | | +-- indexes-of@1.0.1
+| | | | `-- uniq@1.0.1
+| | | `-- vendors@1.0.1
+| | +-- postcss-minify-font-values@1.0.5
+| | +-- postcss-minify-gradients@1.0.5
+| | +-- postcss-minify-params@1.2.2
+| | | `-- alphanum-sort@1.0.2
+| | +-- postcss-minify-selectors@2.1.1
+| | +-- postcss-normalize-charset@1.1.1
+| | +-- postcss-normalize-url@3.0.8
+| | | +-- is-absolute-url@2.1.0
+| | | `-- normalize-url@1.9.0
+| | |   +-- prepend-http@1.0.4
+| | |   +-- query-string@4.3.2
+| | |   | `-- strict-uri-encode@1.1.0
+| | |   `-- sort-keys@1.1.2
+| | |     `-- is-plain-obj@1.1.0
+| | +-- postcss-ordered-values@2.2.3
+| | +-- postcss-reduce-idents@2.4.0
+| | +-- postcss-reduce-initial@1.0.1
+| | +-- postcss-reduce-transforms@1.0.4
+| | +-- postcss-svgo@2.1.6
+| | | +-- is-svg@2.1.0
+| | | | `-- html-comment-regex@1.1.1
+| | | `-- svgo@0.7.2
+| | |   +-- coa@1.0.1
+| | |   | `-- q@1.4.1
+| | |   +-- colors@1.1.2
+| | |   +-- csso@2.3.1
+| | |   | `-- clap@1.1.2
+| | |   +-- js-yaml@3.7.0
+| | |   | +-- argparse@1.0.9
+| | |   | | `-- sprintf-js@1.0.3
+| | |   | `-- esprima@2.7.3
+| | |   +-- sax@1.2.2
+| | |   `-- whet.extend@0.9.9
+| | +-- postcss-unique-selectors@2.0.2
+| | +-- postcss-value-parser@3.3.0
+| | `-- postcss-zindex@2.2.0
+| +-- loader-utils@1.0.2
+| | `-- emojis-list@2.1.0
+| +-- postcss@5.2.15
+| | +-- js-base64@2.1.9
+| | `-- supports-color@3.2.3
+| +-- postcss-modules-scope@1.0.2
+| | `-- css-selector-tokenizer@0.6.0
+| `-- postcss-modules-values@1.2.2
+|   `-- icss-replace-symbols@1.0.2
++-- react@15.4.2
+| +-- fbjs@0.8.9
+| | +-- core-js@1.2.7
+| | +-- isomorphic-fetch@2.2.1
+| | | +-- node-fetch@1.6.3
+| | | | +-- encoding@0.1.12
+| | | | | `-- iconv-lite@0.4.15
+| | | | `-- is-stream@1.1.0
+| | | `-- whatwg-fetch@2.0.3
+| | +-- promise@7.1.1
+| | | `-- asap@2.0.5
+| | +-- setimmediate@1.0.5
+| | `-- ua-parser-js@0.7.12
+| +-- loose-envify@1.3.1
+| `-- object-assign@4.1.1
++-- react-bootstrap@0.30.7
+| +-- classnames@2.2.5
+| +-- dom-helpers@2.4.0
+| +-- invariant@2.2.2
+| +-- keycode@2.1.8
+| +-- react-overlays@0.6.11
+| | `-- dom-helpers@3.2.1
+| +-- react-prop-types@0.4.0
+| +-- uncontrollable@4.0.3
+| `-- warning@3.0.0
++-- react-select@1.0.0-rc.3
+| `-- react-input-autosize@1.1.0
++-- webpack@1.14.0
+| +-- acorn@3.3.0
+| +-- async@1.5.2
+| +-- clone@1.0.2
+| +-- enhanced-resolve@0.9.1
+| | +-- graceful-fs@4.1.11
+| | `-- memory-fs@0.2.0
+| +-- interpret@0.6.6
+| +-- loader-utils@0.2.17
+| +-- memory-fs@0.3.0
+| | +-- errno@0.1.4
+| | | `-- prr@0.0.0
+| | `-- readable-stream@2.2.3
+| |   +-- buffer-shims@1.0.0
+| |   +-- core-util-is@1.0.2
+| |   +-- inherits@2.0.3
+| |   +-- isarray@1.0.0
+| |   +-- process-nextick-args@1.0.7
+| |   `-- util-deprecate@1.0.2
+| +-- mkdirp@0.5.1
+| | `-- minimist@0.0.8
+| +-- node-libs-browser@0.7.0
+| | +-- assert@1.4.1
+| | +-- browserify-zlib@0.1.4
+| | | `-- pako@0.2.9
+| | +-- buffer@4.9.1
+| | | +-- base64-js@1.2.0
+| | | `-- ieee754@1.1.8
+| | +-- console-browserify@1.1.0
+| | | `-- date-now@0.1.4
+| | +-- constants-browserify@1.0.0
+| | +-- crypto-browserify@3.3.0
+| | | +-- browserify-aes@0.4.0
+| | | +-- pbkdf2-compat@2.0.1
+| | | +-- ripemd160@0.2.0
+| | | `-- sha.js@2.2.6
+| | +-- domain-browser@1.1.7
+| | +-- events@1.1.1
+| | +-- https-browserify@0.0.1
+| | +-- os-browserify@0.2.1
+| | +-- path-browserify@0.0.0
+| | +-- process@0.11.9
+| | +-- punycode@1.4.1
+| | +-- querystring-es3@0.2.1
+| | +-- stream-browserify@2.0.1
+| | +-- stream-http@2.6.3
+| | | +-- builtin-status-codes@3.0.0
+| | | +-- to-arraybuffer@1.0.1
+| | | `-- xtend@4.0.1
+| | +-- string_decoder@0.10.31
+| | +-- timers-browserify@2.0.2
+| | +-- tty-browserify@0.0.0
+| | +-- url@0.11.0
+| | | +-- punycode@1.3.2
+| | | `-- querystring@0.2.0
+| | +-- util@0.10.3
+| | | `-- inherits@2.0.1
+| | `-- vm-browserify@0.0.4
+| |   `-- indexof@0.0.1
+| +-- optimist@0.6.1
+| | `-- wordwrap@0.0.3
+| +-- supports-color@3.2.3
+| | `-- has-flag@1.0.0
+| +-- tapable@0.1.10
+| +-- uglify-js@2.7.5
+| | +-- async@0.2.10
+| | +-- uglify-to-browserify@1.0.2
+| | `-- yargs@3.10.0
+| |   +-- camelcase@1.2.1
+| |   +-- cliui@2.1.0
+| |   | +-- center-align@0.1.3
+| |   | | +-- align-text@0.1.4
+| |   | | | +-- longest@1.0.1
+| |   | | | `-- repeat-string@1.6.1
+| |   | | `-- lazy-cache@1.0.4
+| |   | +-- right-align@0.1.3
+| |   | `-- wordwrap@0.0.2
+| |   `-- window-size@0.1.0
+| +-- watchpack@0.2.9
+| | +-- async@0.9.2
+| | `-- chokidar@1.6.1
+| |   +-- anymatch@1.3.0
+| |   | +-- arrify@1.0.1
+| |   | `-- micromatch@2.3.11
+| |   |   +-- arr-diff@2.0.0
+| |   |   | `-- arr-flatten@1.0.1
+| |   |   +-- array-unique@0.2.1
+| |   |   +-- braces@1.8.5
+| |   |   | +-- expand-range@1.8.2
+| |   |   | | `-- fill-range@2.2.3
+| |   |   | |   +-- is-number@2.1.0
+| |   |   | |   +-- isobject@2.1.0
+| |   |   | |   `-- randomatic@1.1.6
+| |   |   | +-- preserve@0.2.0
+| |   |   | `-- repeat-element@1.1.2
+| |   |   +-- expand-brackets@0.1.5
+| |   |   | `-- is-posix-bracket@0.1.1
+| |   |   +-- extglob@0.3.2
+| |   |   +-- filename-regex@2.0.0
+| |   |   +-- kind-of@3.1.0
+| |   |   | `-- is-buffer@1.1.4
+| |   |   +-- normalize-path@2.0.1
+| |   |   +-- object.omit@2.0.1
+| |   |   | +-- for-own@0.1.5
+| |   |   | | `-- for-in@1.0.2
+| |   |   | `-- is-extendable@0.1.1
+| |   |   +-- parse-glob@3.0.4
+| |   |   | +-- glob-base@0.3.0
+| |   |   | `-- is-dotfile@1.0.2
+| |   |   `-- regex-cache@0.4.3
+| |   |     +-- is-equal-shallow@0.1.3
+| |   |     `-- is-primitive@2.0.0
+| |   +-- async-each@1.0.1
+| |   +-- glob-parent@2.0.0
+| |   +-- is-binary-path@1.0.1
+| |   | `-- binary-extensions@1.8.0
+| |   +-- is-glob@2.0.1
+| |   | `-- is-extglob@1.0.0
+| |   `-- readdirp@2.1.0
+| |     `-- set-immediate-shim@1.0.1
+| `-- webpack-core@0.6.9
+|   +-- source-list-map@0.1.8
+|   `-- source-map@0.4.4
+`-- webpack-manifest-plugin@1.1.0
+  `-- fs-extra@0.30.0
+    +-- jsonfile@2.4.0
+    +-- klaw@1.3.1
+    `-- rimraf@2.6.1
+      `-- glob@7.1.1
+        +-- fs.realpath@1.0.0
+        +-- inflight@1.0.6
+        | `-- wrappy@1.0.2
+        `-- once@1.4.0
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN serviceapp@1.0.0 No description
+npm WARN serviceapp@1.0.0 No repository field.
+npm WARN serviceapp@1.0.0 No license field.
+
+C:\Users\Dev\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\scripts\React>npm run dev
+
+> serviceapp@1.0.0 dev C:\Users\Dev\Documents\Visual Studio 2015\Projects\WebApplication1\WebApplication1\scripts\React
+> webpack -d --watch
+
+Hash: c6faf2f8f17134f6de20
+Version: webpack 1.14.0
+Time: 5277ms
+        Asset     Size  Chunks             Chunk Names
+     index.js   801 kB    0, 1  [emitted]  index
+    vendor.js  3.69 kB       1  [emitted]  vendor
+ index.js.map   875 kB    0, 1  [emitted]  index
+vendor.js.map  3.72 kB       1  [emitted]  vendor
+    + 183 hidden modules
+Hash: fbbe8f676790718fbeaf
+Version: webpack 1.14.0
+Time: 1025ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  801 kB    0, 1  [emitted]  index
+index.js.map  875 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: d55fa845a2a824b603cc
+Version: webpack 1.14.0
+Time: 755ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  801 kB    0, 1  [emitted]  index
+index.js.map  875 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: fbd52eca2cfa6303ddf4
+Version: webpack 1.14.0
+Time: 1204ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  801 kB    0, 1  [emitted]  index
+index.js.map  875 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 8ede71e80b8d9b5f52ad
+Version: webpack 1.14.0
+Time: 909ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  801 kB    0, 1  [emitted]  index
+index.js.map  875 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: b30d543932564a199291
+Version: webpack 1.14.0
+Time: 1241ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  801 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: d7689f32d07d4f143a10
+Version: webpack 1.14.0
+Time: 933ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 4539e509be9fa46fc348
+Version: webpack 1.14.0
+Time: 1044ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: a706252a28aea142311c
+Version: webpack 1.14.0
+Time: 854ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 7a90d84860a97537860d
+Version: webpack 1.14.0
+Time: 1134ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 49078e9b35938361d569
+Version: webpack 1.14.0
+Time: 909ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 2171336f0a7d75ecd77c
+Version: webpack 1.14.0
+Time: 1058ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: f2e2c90a3f40cfb726f2
+Version: webpack 1.14.0
+Time: 904ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: dc1c9e89d947905516cf
+Version: webpack 1.14.0
+Time: 1127ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: d3ff62d5f34cfb94dcc6
+Version: webpack 1.14.0
+Time: 888ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: d8327d168db10d262065
+Version: webpack 1.14.0
+Time: 876ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: cd2c77f4227e6e76b3e0
+Version: webpack 1.14.0
+Time: 704ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 4bb183ebfa96889cc021
+Version: webpack 1.14.0
+Time: 821ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  802 kB    0, 1  [emitted]  index
+index.js.map  876 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: d552d8d3d7c2e89dfa72
+Version: webpack 1.14.0
+Time: 798ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 695956309fd2178b5b74
+Version: webpack 1.14.0
+Time: 855ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 5fbd2e3efe7970a33c3b
+Version: webpack 1.14.0
+Time: 731ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: be6e6bbe8f4d5aebbb2a
+Version: webpack 1.14.0
+Time: 867ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: b649024d7dbc17802b41
+Version: webpack 1.14.0
+Time: 26ms
+        Asset     Size  Chunks             Chunk Names
+    vendor.js  1.35 kB       1  [emitted]  vendor
+vendor.js.map  1.33 kB       1  [emitted]  vendor
+    + 1 hidden modules
+
+ERROR in ./index.jsx
+Module build failed: SyntaxError: C:/Users/Dev/Documents/Visual Studio 2015/Projects/WebApplication1/WebApplication1/scripts/React/index.jsx: Unexpected token (44:30)
+
+  42 |     }
+  43 |
+> 44 |     handleAddingFieldChange : function(event) {
+     |                               ^
+  45 |         console.log(event)
+  46 |     }
+  47 |
+
+Hash: 04b25b6eb1d3a9fa62e9
+Version: webpack 1.14.0
+Time: 1483ms
+        Asset     Size  Chunks             Chunk Names
+     index.js   803 kB    0, 1  [emitted]  index
+    vendor.js  3.69 kB       1  [emitted]  vendor
+ index.js.map   877 kB    0, 1  [emitted]  index
+vendor.js.map  3.72 kB       1  [emitted]  vendor
+    + 183 hidden modules
+Hash: 5c3428f75d9bb6d97665
+Version: webpack 1.14.0
+Time: 869ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 58c5582c9f0ca1b9f697
+Version: webpack 1.14.0
+Time: 759ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 752e39f06e88cb19c197
+Version: webpack 1.14.0
+Time: 915ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: a2eda46fe3b791cde8de
+Version: webpack 1.14.0
+Time: 720ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: ae1d346d37ed9f5f0b75
+Version: webpack 1.14.0
+Time: 859ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: ea63fc70a2b6b0423165
+Version: webpack 1.14.0
+Time: 724ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 20a09011b8dc4e952768
+Version: webpack 1.14.0
+Time: 606ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 0d82cc2c3f10643ed551
+Version: webpack 1.14.0
+Time: 883ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 4d35ee5f55b188e07f1e
+Version: webpack 1.14.0
+Time: 713ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: c090776ce5db7a9ea7cd
+Version: webpack 1.14.0
+Time: 596ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 8ec2e06c553e7f54cea6
+Version: webpack 1.14.0
+Time: 856ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: c525bf61b4fbe7f6d991
+Version: webpack 1.14.0
+Time: 708ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 2948623d5e9777d79503
+Version: webpack 1.14.0
+Time: 905ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: a36b9952f4996347f90a
+Version: webpack 1.14.0
+Time: 768ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 53231f79ae729bcfd6d5
+Version: webpack 1.14.0
+Time: 909ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 1d3244c4773f5815f3a9
+Version: webpack 1.14.0
+Time: 866ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: bc40d481cb94c5af43ec
+Version: webpack 1.14.0
+Time: 899ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: f8fdc4e2a66f36bff21a
+Version: webpack 1.14.0
+Time: 933ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: b4bec5bd0e19bb0157a8
+Version: webpack 1.14.0
+Time: 930ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: b5f71d4d6fcff930692c
+Version: webpack 1.14.0
+Time: 927ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 2a32793ec09a6c9bcf99
+Version: webpack 1.14.0
+Time: 942ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: c74a70d6260d8e5c6f2e
+Version: webpack 1.14.0
+Time: 949ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 785938e1977c2403076b
+Version: webpack 1.14.0
+Time: 968ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 529b363624bf5c18a358
+Version: webpack 1.14.0
+Time: 905ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 753be7d460022298a8df
+Version: webpack 1.14.0
+Time: 970ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 49dd4c84881a6727e333
+Version: webpack 1.14.0
+Time: 916ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 38322cd4a402e1e70725
+Version: webpack 1.14.0
+Time: 896ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 0c95abe6c7661d42d131
+Version: webpack 1.14.0
+Time: 968ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 0ecedffa275c0a92526b
+Version: webpack 1.14.0
+Time: 953ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 75b5abfe4509b1edcfc2
+Version: webpack 1.14.0
+Time: 864ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: b89e002417114fcccf4c
+Version: webpack 1.14.0
+Time: 1041ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 500706aa82c07c43170a
+Version: webpack 1.14.0
+Time: 938ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 361d2865d3a0019f1d3a
+Version: webpack 1.14.0
+Time: 922ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  877 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: cb83cf816bb8333803de
+Version: webpack 1.14.0
+Time: 928ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: f7ae187b3bce23919c9e
+Version: webpack 1.14.0
+Time: 928ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
+Hash: 863f1b765c1c0adf77d2
+Version: webpack 1.14.0
+Time: 877ms
+       Asset    Size  Chunks             Chunk Names
+    index.js  803 kB    0, 1  [emitted]  index
+index.js.map  878 kB    0, 1  [emitted]  index
+    + 183 hidden modules
